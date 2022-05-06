@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 500px;
+    background-color: #827191;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 700;
+}
+.table {
+    overflow: hidden;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.cell {
+    border-right: 2px solid #D7D9B1;
+    border-bottom: 2px solid #D7D9B1;
+    width: 133px;
+    height: 133px;
+    text-align: center;
+    font-size: 7em;
+    line-height: 1.3em;
+    vertical-align: bottom;
+    color: #F4B266;
+}
+.row:last-of-type .cell {
+    border-right: none;
+}
+.row .cell:last-of-type {
+    border-bottom: none;
+}
+.x-marker {
+    color: #48A9A6;
+}
+.o-marker {
+    color: #F4B266
+}
+.popup {
+    position: absolute;
+    /*   border:3px solid white; */
+    
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 15;
+    width: 100%;
+    height: 200%;
+    top: 0;
+    left: 0;
+}
+.modal {
+    z-index: 100;
+    position: relative;
+    top: 175px;
+    margin: 0 auto;
+    background-color: #64586E;
+    box-shadow: 0 0 4px 1px #FFFFFF;
+    padding: 35px;
+    width: 160px;
+    color: white;
+    text-align: center;
+    transition: all 2s;
+}
+.modal .winner-message {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.modal .start-btn {
+    padding: 10px;
+    border: 2px solid white;
+}
+.modal .start-btn:hover {
+    background-color: #4F4755;
+    color: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+}

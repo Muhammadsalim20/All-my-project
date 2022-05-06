@@ -1,0 +1,45 @@
+
+
+span{
+ color: #A19C9C;
+}
+nav{
+	background-color:#fff;
+	margin-top: 2px;
+	padding: 0px 2% 0px 2%;
+	position: sticky;
+	color:#50504f;
+}
+nav ul li a{
+	color: #393838;
+	font-size: 20px;
+}
+
+
+
+#log{
+	color: black;
+}
+#rasm{
+	margin: 5px 0 0 0;
+	width: 115px;
+	height: auto;
+}
+.bac{
+	background-size: cover;
+	margin-left: -6px;
+	background-image: url(../foto/bac.png);
+	width: 101%;
+	height: 400px;
+
+}
+.q2{
+	color: white;
+	font-family: Comic Sans MS;
+	bord
+}
+.baccc{
+	background-image: url(../foto/asad.png);
+	width: 101%;
+	height: auto;
+}
