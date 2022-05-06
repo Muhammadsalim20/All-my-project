@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory game</title>
+</head>
+<body>
+<style>
+	body{
+		background-color: aqua;
+	}
+div#memory_board{
+	background:rgb(5, 161, 5);
+	border:rgb(45, 0, 82) 1px solid;
+	width:800px;
+	height:540px;
+	padding:24px;
+	margin:0px auto;
+	border-radius: 8px;
+	
+}
+div#memory_board > div{
+	background: url(tile_bg.jpg) no-repeat;
+	border:rgb(0, 0, 0) 1px solid;
+	width:70px;
+	height:70px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+	border-radius: 8px;
+}
+</style>
+</head>
+<body>
+<div id="memory_board"></div>
+<script src="INDEX.JS"></script>
+<script>newBoard();</script>
+</body>
+</html>
